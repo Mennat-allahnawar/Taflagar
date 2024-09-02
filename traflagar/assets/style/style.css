@@ -1,0 +1,494 @@
+@font-face {
+  font-family: "my font";
+  src: url(./assets);
+}
+
+.nav {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  letter-spacing: 2px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  width: 25px;
+  height: 25px;
+  background-color: #5a98f2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.title a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0 0 0 10px;
+}
+
+.right li {
+  text-decoration: none;
+  display: inline;
+  list-style: none;
+  padding: 0 20px;
+}
+.right a {
+  text-decoration: none;
+  color: rgb(163, 163, 163);
+}
+#one {
+  font-weight: bold;
+  color: black;
+}
+/*-------------------------------------------header-------------------------------------*/
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.headertext h1 {
+  margin-top: 200px;
+  width: 300px;
+}
+.headertext p {
+  color: gray;
+  width: 300px;
+  margin-bottom: 25px;
+}
+.homebutton {
+  text-decoration: none;
+  background-color: rgb(60, 145, 214);
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 16px;
+  color: aliceblue;
+}
+.homebutton:hover {
+  background-color: aqua;
+  color: white;
+}
+.headerimg img {
+  margin-top: 100px;
+  width: 500px;
+  height: 400px;
+}
+
+/*-------------------------------------------mysection-------------------------------------*/
+.ourservices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.servicetext {
+  display: block;
+  margin-top: 100px;
+}
+
+.servicetext h2 {
+  font-size: 25px;
+  text-align: center;
+}
+.my-line {
+  border: none;
+  border-top: 1.5px solid #000;
+  width: 20%;
+}
+.servicetext p {
+  display: flex;
+  color: gray;
+  width: 750px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.services {
+  background-color: #bbe1f0;
+  border-radius: 100% 0% 100% 0% / 46% 51% 49% 54%;
+  width: 900px;
+  height: 650px;
+}
+.firstcards {
+  display: flex;
+}
+.secondcards {
+  display: flex;
+}
+.card {
+  background-color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  height: 250px;
+  width: 600px;
+  padding: 30px 30px 0 30px;
+  margin: 30px 30px 0 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Applying shadow */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition */
+}
+.card p {
+  width: 180px;
+}
+
+.servicebutton {
+  background-color: white;
+  border-color: #458ff6;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #458ff6;
+  margin-top: 55px;
+  border: 1.5px solid #458ff6;
+  text-decoration: none;
+}
+.servicebutton:hover {
+  background-color: #458ff6;
+  color: white;
+}
+
+/*-------------------------------------------Healthcare-------------------------------------*/
+.healthcare {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.healthcare h2 {
+  margin-top: 220px;
+  width: 300px;
+  font-weight: 700;
+  font-size: 30px;
+}
+.my-line2 {
+  border: none;
+  border-top: 1.5px solid #000;
+  width: 3%;
+  position: absolute;
+  justify-self: left;
+}
+.healthcare p {
+  color: gray;
+  width: 320px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.healthcare img {
+  margin-top: 100px;
+  width: 500px;
+  height: 400px;
+}
+.healthcarebutton {
+  background-color: white;
+  border-style: double;
+  border-color: #458ff6;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #458ff6;
+  margin-top: 5px;
+  text-decoration: none;
+}
+.healthcarebutton:hover {
+  background-color: #458ff6;
+  color: white;
+}
+/*-------------------------------------------Download-------------------------------------*/
+.download {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.downloadtext h2 {
+  margin-top: 220px;
+  width: 300px;
+  font-weight: 700;
+  font-size: 30px;
+}
+/* .my-line2{
+    border: none;
+    border-top: 1.5px solid #000;
+    width: 5%;
+    
+} */
+.downloadtext p {
+  color: gray;
+  width: 320px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.downloadimg img {
+  margin-top: 100px;
+  width: 500px;
+  height: 400px;
+}
+.downloadbutton {
+  background-color: white;
+  border-style: solid;
+  border-color: #458ff6;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #458ff6;
+  text-decoration: none;
+}
+.downloadbutton i {
+  margin-left: 5px;
+}
+.downloadbutton:hover {
+  background-color: #458ff6;
+  color: white;
+}
+
+/*-------------------------------------------Customer-------------------------------------*/
+.customer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.rectangle {
+  width: 100%; /* or a max-width for better responsiveness */
+  max-width: 700px;
+  height: auto; /* Adjust height as needed */
+  padding: 20px;
+  border-radius: 2.5%;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+}
+
+.rechead h2 {
+  text-align: center;
+  color: white;
+  padding-top: 10px; /* Adjust this value to align properly */
+}
+.my-line4 {
+  border: none;
+  border-top: 1.5px solid white;
+  width: 5%;
+  padding-bottom: 10px;
+}
+.recbottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; /* Ensure the text and image are spaced correctly */
+}
+.recleft {
+  display: flex;
+  align-items: center;
+}
+.reclefttext {
+  margin-left: 10px;
+  text-align: left;
+  color: white;
+}
+.recleft h3 {
+  font-size: 22px;
+
+  margin: 0;
+}
+.recleft a {
+  font-size: 18px;
+}
+.recleft img {
+  width: 100px; /* Set the desired width of the image */
+  height: 100px; /* Set the desired height of the image */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover;
+}
+.recright {
+  color: white;
+  width: 300px;
+}
+
+.scroll {
+  display: flex;
+  align-items: center;
+  background-color: white; /* Yellow background */
+  padding: 5px 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.nav-arrow {
+  font-size: 20px;
+  cursor: pointer;
+  color: #1e90ff; /* Blue color for arrows */
+  user-select: none;
+  padding: 0 10px 0 10px;
+}
+
+.nav-dots {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #d3d3d3; /* Light grey color for inactive dots */
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #1e90ff; /* Blue color for active dot */
+}
+/*-------------------------------------------article-------------------------------------*/
+.article {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.articletext {
+  font-size: 25px;
+  text-align: center;
+  display: block;
+  margin-top: 100px;
+}
+
+/* .my-line5{
+    border: none;
+    border-top: 1.5px solid black;
+    width: 5%;
+    
+   
+} */
+.artimgs {
+  display: flex;
+  justify-content: space-between;
+}
+.articlecards {
+  display: flex;
+  align-self: center;
+  position: absolute;
+  margin-top: 200px;
+}
+.icons img {
+  width: 250px;
+  height: 150px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.cardstext {
+  padding: 0px 30px 30px 30px;
+}
+.cards {
+  background-color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  height: 450px;
+  width: 250px;
+  margin: 30px 30px 0 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Applying shadow */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition */
+}
+.cards p {
+  width: 180px;
+}
+
+.cardsbutton {
+  display: flex;
+  padding-left: 35px;
+  color: #67c3f3;
+  text-decoration: none;
+}
+.nav-arrowbttn {
+  font-size: 20px;
+  cursor: pointer;
+  color: #1e90ff; /* Blue color for arrows */
+  user-select: none;
+  padding-left: 5px;
+}
+.articlebutton {
+  background-color: white;
+  border-style: groove;
+  border-color: #458ff6;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #458ff6;
+  margin-top: 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 70px;
+  align-self: center;
+}
+.articlebutton:hover {
+  background-color: #458ff6;
+  color: white;
+}
+/*----------------------------------------footer-------------------------------*/
+.footer {
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 200px;
+}
+.foot1 {
+  text-decoration: none;
+  color: white;
+  width: 320px;
+}
+.footup {
+  display: flex;
+  align-items: center;
+}
+.title2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 0 0 10px;
+}
+.logo2 {
+  color: rgb(41, 113, 172);
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.footer li {
+  list-style: none;
+  margin: 10px 10px;
+}
+
+#two {
+  font-size: 25px;
+}
+#three {
+  font-size: 25px;
+}
+#four {
+  font-size: 25px;
+}
+/*--------------------------------------------The End------------------------------*/
